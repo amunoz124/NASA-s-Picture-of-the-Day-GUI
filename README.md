@@ -14,7 +14,10 @@ Requirements:
 Python 3
 Download requests (https://stackoverflow.com/questions/30362600/how-to-install-requests-module-in-python-3-4-instead-of-2-7) & 
 pillow (https://pillow.readthedocs.io/en/3.1.x/installation.html) onto Python using pip install.
+
 An internet connection.
+
+Your own NASA API: https://api.nasa.gov/. Use the APOD API.
 
 Things you need to know:
 
