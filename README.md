@@ -1,9 +1,7 @@
 Title: NASA's Picture of the Day
 
 Creators:
-Martinez Dominguez, Charlie
 Munoz, Andy
-Peralta, Allen
 
 What is it?
 
