@@ -3,14 +3,13 @@ import requests
 import json
 from PIL import Image
 import webbrowser
-import config
 
 root = tkinter.Tk()
 root.title('NASA\'s POD')
 root.config(bg='DodgerBlue2')
 
-
-nasa_api = requests.get(config.api_key)
+#add your own API in your_API_key
+nasa_api = requests.get(your_API_key)
 api = json.loads(nasa_api.content)
 label1 = tkinter.Label(root, text=api['title'], font=('Harlow Solid Italic', 50))
 label1.config(bg='DodgerBlue2')  
