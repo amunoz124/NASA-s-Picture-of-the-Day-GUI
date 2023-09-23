@@ -1,31 +1,30 @@
-Title: NASA's Picture of the Day
+# NASA's Picture of the Day
 
-Creators:
-Munoz, Andy
+## Creators
+- Charlie Martinez Dominguez
+- Andy Munoz
+- Allen Peralta
 
-What is it?
+## What is it?
+NASA's Picture of the Day is a visually captivating GUI application created using one of NASA's APIs. It brings you a daily dose of awe-inspiring imagery or video curated by NASA. A corresponding title is always displayed, enhancing your understanding and appreciation of the cosmos.
 
-It's a GUI we created using one of NASA's API's to show an image or video that NASA posts everyday on one of their websites. Basically
-everyday there will be a new image or video for you to look at, as well as the explanation behind the image or video. A title corresponding
-to that image will always be displayed.
+![Image](https://imgur.com/zHCHHqk.jpeg)
 
-Requirements:
+## Requirements
+To experience this cosmic adventure, you'll need the following:
 
-Python 3
-Download requests (https://stackoverflow.com/questions/30362600/how-to-install-requests-module-in-python-3-4-instead-of-2-7) & 
-pillow (https://pillow.readthedocs.io/en/3.1.x/installation.html) onto Python using pip install.
+- Python 3
+- [Requests](https://stackoverflow.com/questions/30362600/how-to-install-requests-module-in-python-3-4-instead-of-2-7) (Install it with `pip install requests`)
+- [Pillow](https://pillow.readthedocs.io/en/3.1.x/installation.html) (Install it with `pip install pillow`)
+- A reliable internet connection
 
-An internet connection.
+## What to Expect
+Here are some important things to know as you embark on your cosmic journey:
 
-Your own NASA API: https://api.nasa.gov/. Use the APOD API.
+1. If the explanation appears cut off, don't worry—it's not. You can scroll, just like you would on a website, to access the full content.
 
-Things you need to know:
+2. When a video is featured, a convenient button will be presented. Clicking it will seamlessly redirect you to the captivating video on your web browser, ensuring an immersive experience.
 
-1) When you run the GUI and if the explanation looks like it's cut off, it isn't. You will need to use your mousepad, using two fingers 
-to scroll like you would on a website.
-2)When there is a video, there will be a button displayed that you will need to click to redirect you to that video. It will open the
-website on your web browser.
-3)Depending on your internet speed, it might take a while to run the GUI.
-4)After running the GUI, the image displayed will be downloaded onto the folder of the .py file and README text. You may delete it if
-you wish, however, the image will overwrite itself if you run the GUI the next day because a new image will be displayed. None of this 
-applies if the button to redirect you to a video is shown.
+3. Please be patient with the loading times, as they may vary depending on your internet speed. The universe's wonders are worth the wait.
+
+4. After running the GUI, the displayed image will be automatically downloaded into the folder containing the .py file and README text. If you prefer, you can delete it, but be aware that running the GUI again the next day will replace the image with a new one. However, this doesn't apply when the GUI offers the option to redirect you to an enthralling video experience.
